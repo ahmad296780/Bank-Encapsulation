@@ -15,7 +15,7 @@ string user = Console.ReadLine();
 if (user == "deposit")
 {
     Console.WriteLine("how much");
-    int thismuch = int.Parse(Console.ReadLine());
+    double thismuch = double.Parse(Console.ReadLine());
     chase.deposit(thismuch);
     Console.WriteLine("your new balance is:");
     chase.getBalance();
@@ -23,7 +23,7 @@ if (user == "deposit")
 else if (user == "Deposit")
 {
     Console.WriteLine("how much");
-    int thismuch = int.Parse(Console.ReadLine());
+    double thismuch = double.Parse(Console.ReadLine());
     chase.deposit(thismuch);
     Console.WriteLine("your new balance is:");
     chase.getBalance();
@@ -31,7 +31,7 @@ else if (user == "Deposit")
 else if (user == "withdraw")
 {
     Console.WriteLine("how much");
-    int thismuch = int.Parse(Console.ReadLine());
+    double thismuch = double.Parse(Console.ReadLine());
     chase.withdraw(thismuch);
     Console.WriteLine("your new balance is:");
     chase.getBalance();
@@ -39,7 +39,7 @@ else if (user == "withdraw")
 else if (user == "Withdraw")
 {
     Console.WriteLine("how much");
-    int thismuch = int.Parse(Console.ReadLine());
+    double thismuch = double.Parse(Console.ReadLine());
     chase.withdraw(thismuch);
     Console.WriteLine("your new balance is:");
     chase.getBalance();
